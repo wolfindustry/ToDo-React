@@ -1,15 +1,16 @@
 @import "tailwindcss";
-*{
-    scrolbehavior: none;
+
+* {
+    overscroll-behavior: none;
 }
 
-body{
+body {
     display: flex;
     width: 100%;
     alighn-items: center;
 }
 
-#root{
+#root {
     display: flex;
     width: 100%;
     flex-direction: column;
